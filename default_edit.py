@@ -1,3 +1,4 @@
+   from winreg import *
     #ensure fiddler doesn't defalt to certmakerEnroll
     keyVal = r'Software\Microsoft\Fiddler2\Prefs\.default'
     try:
